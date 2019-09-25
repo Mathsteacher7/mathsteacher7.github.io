@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   line-height: 26pt;
+  font-family: 'Oswald', sans-serif;
 }
 
 .bold{
@@ -19,6 +20,29 @@
 a {
   text-decoration: none;
   color: black;
+}
+
+#top {
+  color: #7C6D5C;
+  background-color: #77C9E5;
+  text-align: center;
+  padding: 10px;
+  h1 {
+    font-size: 40px;
+  }
+  em {
+    font-size: 20px;
+  }
+  img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+#aboutme, #education{
+  background-color: #B6C6C4;
+  padding: 10px 100px;
 }
 
 #envelope {
@@ -94,4 +118,22 @@ a {
       }
     }
   }
+}
+
+#projects {
+  .for_flex {
+    display: flex;
+
+    a {
+      img {
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      }
+    }
+  }
+}
+footer {
+  font-size: 10px;
+  text-align: center;
 }
