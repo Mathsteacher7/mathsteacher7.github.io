@@ -6,10 +6,6 @@
 .bold {
   font-weight: 700; }
 
-.project_images {
-  height: 300px;
-  width: 500px; }
-
 a {
   text-decoration: none;
   color: black; }
@@ -57,7 +53,7 @@ a {
         font-size: 38px; } }
   #languages-frameworks ul li {
     display: inline-block;
-    margin-right: 10px; }
+    margin-right: 20px; }
     #languages-frameworks ul li a {
       display: block;
       position: relative;
@@ -95,6 +91,9 @@ a {
       #projects .for_flex div p {
         width: 85%;
         margin-bottom: 0; }
+    #projects .for_flex a .project_images {
+      height: 300px;
+      width: 500px; }
     #projects .for_flex a img {
       vertical-align: middle;
       width: 30px;
