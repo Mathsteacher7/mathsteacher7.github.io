@@ -2,15 +2,14 @@
   box-sizing: border-box;
   line-height: 26pt;
   font-family: 'Oswald', sans-serif;
+
 }
 
 .bold{
   font-weight: 700;
 }
 
-.education {
 
-}
 
 .project_images {
   height: 300px;
@@ -53,9 +52,9 @@ a {
 
 #languages-frameworks {
 
+  padding: 10px 100px;
 
   .icon:hover {
-
     border: none;
 
   }
@@ -121,8 +120,20 @@ a {
 }
 
 #projects {
+  padding: 10px 100px;
+  background-color: #77C9E5;
   .for_flex {
     display: flex;
+    flex-wrap: wrap;
+
+    div {
+      padding: 20px;
+      p {
+        width: 85%;
+        margin-bottom: 0;
+      }
+    }
+
 
     a {
       img {
