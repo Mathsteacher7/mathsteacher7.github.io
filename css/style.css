@@ -23,6 +23,8 @@ a {
     vertical-align: middle;
     width: 30px;
     height: 30px; }
+  #top a {
+    margin-left: 20px; }
 
 #aboutme, #education {
   background-color: #B6C6C4;
