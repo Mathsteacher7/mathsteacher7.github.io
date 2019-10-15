@@ -10,12 +10,19 @@
 }
 
 
-
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 a {
   text-decoration: none;
   color: black;
+}
+#top:hover {
+  background-color: #0977A3;
+  color: white;
 }
 
 #top {
@@ -48,6 +55,10 @@ a {
   height: 25px;
   width: 25px;
 
+}
+
+#languages-frameworks:hover {
+  background-color: #F9D2A7;
 }
 
 #languages-frameworks {
@@ -130,6 +141,8 @@ a {
 
     div {
       padding: 20px;
+
+
       p {
         width: 85%;
         margin-bottom: 0;
@@ -155,4 +168,25 @@ a {
 footer {
   font-size: 10px;
   text-align: center;
+}
+#education {
+
+  .for_flex2{
+    display: flex;
+  }
+
+  #magicbox{
+    width: 150px;
+    height: 120px;
+    padding: 0 10px;
+    color: #AD0505;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  li {
+    a:hover{
+      color: darkblue;
+      font-size: 20px;
+    }
+  }
 }

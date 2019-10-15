@@ -6,9 +6,17 @@
 .bold {
   font-weight: 700; }
 
+nav {
+  display: flex;
+  justify-content: flex-end; }
+
 a {
   text-decoration: none;
   color: black; }
+
+#top:hover {
+  background-color: #0977A3;
+  color: white; }
 
 #top {
   color: #7C6D5C;
@@ -33,6 +41,9 @@ a {
 #envelope {
   height: 25px;
   width: 25px; }
+
+#languages-frameworks:hover {
+  background-color: #F9D2A7; }
 
 #languages-frameworks {
   padding: 10px 100px; }
@@ -104,5 +115,18 @@ a {
 footer {
   font-size: 10px;
   text-align: center; }
+
+#education .for_flex2 {
+  display: flex; }
+#education #magicbox {
+  width: 150px;
+  height: 120px;
+  padding: 0 10px;
+  color: #AD0505;
+  margin-top: 20px;
+  margin-left: 100px; }
+#education li a:hover {
+  color: darkblue;
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
