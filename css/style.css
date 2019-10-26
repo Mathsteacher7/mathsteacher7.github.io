@@ -48,16 +48,14 @@ a {
 #languages-frameworks {
   padding: 10px 100px; }
   #languages-frameworks .icon:hover {
-    border: none; }
+    background-color: #77C9E5; }
   #languages-frameworks .icon {
     width: 56px;
     height: 56px;
-    border: 2px solid #fff;
     font-size: 32px;
     color: #fff;
     line-height: 50px;
-    text-align: center;
-    background-color: #77C9E5; }
+    text-align: center; }
     @media only screen and (min-width: 477px) {
       #languages-frameworks .icon {
         width: 68px;
