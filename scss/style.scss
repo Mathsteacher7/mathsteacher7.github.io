@@ -136,35 +136,38 @@ a {
 #projects {
   padding: 10px 100px;
   background-color: #77C9E5;
-  .for_flex {
-    display: flex;
-    flex-wrap: wrap;
-
-    div {
-      padding: 20px;
-
-
-      p {
-        max-width: 500px;
-        margin-bottom: 0;
+    .for_flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      div {
+        padding: 20px 40px;
+  
+  
+        p {
+          max-width: 500px;
+          margin-bottom: 0;
+        }
+      }
+  
+  
+      a {
+  
+  
+        .project_images {
+          height: 300px;
+          width: 500px;
+        }
+        img {
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        }
       }
     }
 
-
-    a {
-
-
-      .project_images {
-        height: 300px;
-        width: 500px;
-      }
-      img {
-      vertical-align: middle;
-      width: 30px;
-      height: 30px;
-      }
-    }
-  }
+  
 }
 footer {
   font-size: 10px;

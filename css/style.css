@@ -96,9 +96,10 @@ a {
   background-color: #77C9E5; }
   #projects .for_flex {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     #projects .for_flex div {
-      padding: 20px; }
+      padding: 20px 40px; }
       #projects .for_flex div p {
         max-width: 500px;
         margin-bottom: 0; }
